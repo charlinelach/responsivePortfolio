@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@900&display=swap" rel="stylesheet">
 
     <title>Chaq's Portfolio</title>
 
@@ -17,7 +17,7 @@
 
 <!-- Body fixes with font too -->
 
-<body style="background-color:rgb(71, 114, 107); font-family: Arial, Helvetica, sans-serif;">
+<body style="background-image:url('../responsivePortfolio/Images/palmTrees.jpg'); font-family: 'Quicksand', Arial, Helvetica, sans-serif;">
   
 
   <!-- Navigation Bar -->
@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li  class="nav-item active">
-          <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">About Me!<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -44,37 +44,7 @@
     </div>
   </nav>
 
-  <!-- About Me section where containerage is switched -->
-  <!-- <div class="card align-middle" style="width:75%; margin-left:5%; margin-top: 5%;">
-    <div class="card-body">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h1>About Me!</h1>
-          </div>
-        </div>
-        <div class="row flex-container">
-          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-            <img src="./Images/Eric.jpg" alt="Charline and her Husband" class="rounded float-left" width="30%" style="float:left; height:auto;">
-    
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-              Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
+  <!-- About Me section -->
 
   <div class="container">
     <div class="row">
@@ -92,10 +62,9 @@
                 </div>
               </div>
               <dl class="row">
-                <dt class="col-sm-3">
-                  <img src="./Images/Eric.jpg" alt="Charline and her Husband" class="rounded float-center" width="100%" style="height:auto;"></dt>
-                <dd class="col-sm-9">
-                  <p class="lr-3">
+                <dt class="col">
+                  <img src="./Images/Eric.jpg" alt="Charline and her Husband" class="rounded align-left" width="20%" style="height:auto; float:left; margin: 1%;">
+                  <p class="lr-3"">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -108,7 +77,8 @@
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                   </p>
-                </dd>
+               </dt>
+              </dl>
           </div>
         </div>
       </div>
@@ -117,11 +87,9 @@
 
   <!-- Footer -->
   
-
-  
   <footer class="footer">
     <div class="navbar fixed-bottom text-center" style="background-color: white;">
-      <span class="text-muted">© 2020 Copyright: Charline</span>
+      <span style="text-align:center;margin-left:auto;margin-right:auto;" class="text-muted">© 2020 Copyright: Charline</span>
     </div>
   </footer>
 </body>
