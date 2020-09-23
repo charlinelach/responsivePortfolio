@@ -14,8 +14,8 @@ To utilize this website/application, end users may access it via [Deploy link](h
 N/A
 
 ### Credits & Thank Yous
-Shout out to the wonderful instructor(s) and TAs! Kieran was kind to understand that my grandmother passed this morning and was very respectful.
-Big thank you to the fellow students to be great at asking questions and having others answer them. TAs are always fast and have awesome answers, too.
+<p>Shout out to the wonderful instructor(s) and TAs! Kieran was kind to understand that my grandmother passed this morning and was very respectful.</p>
+<p>Big thank you to the fellow students to be great at asking questions and having others answer them. TAs are always fast and have awesome answers, too.</p>
 
 # License Information
 I am not aware of any License Information used.
