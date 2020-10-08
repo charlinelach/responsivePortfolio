@@ -3,7 +3,7 @@ The initial purpose of this project is to test/provide practice for the develope
 <br>
 The second motion of this application was to improve its input and provide professional materials (as if applying to developer roles) to recruiters. It provides links to great resources about the creator.
 
-**Latest Update**: `2020 October 07`
+**Latest Update**: `2020 October 08`
 <br>
 Deployed at: https://charlinelach.github.io/responsivePortfolio/
 <br>
@@ -14,12 +14,13 @@ Repository: https://github.com/charlinelach/responsivePortfolio
 # Development
 
 ## Usage Instructions
-To utilize this website/application, end users may access it via [deploy link](https://charlinelach.github.io/responsivePortfolio/). From this website, there are four pages: About Me, Portfolio, Professional Materials, and Contact.
+To utilize this website/application, end users may access it via [deploy link](https://charlinelach.github.io/responsivePortfolio/). From this website, there are two pages: About Me and Professional Materials.
 <br>
 
 ![Portfolio GIF](./Images/overallPortfolio.gif)
 <br>
-![Professional Material UI](./Images/ProMaterialGIF.gif)
+Mobile view
+![Professional Material UI](./Images/proMaterial.gif)
 <br>
 
 ## Installation Instructions
