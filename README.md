@@ -11,6 +11,9 @@ Repository: https://github.com/charlinelach/responsivePortfolio
 <br>
 **Created**: `2020 September 22`
 
+## Technologies
+HTML, CSS, JavaScript
+
 # Development
 
 ## Usage Instructions
