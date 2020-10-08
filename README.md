@@ -17,9 +17,9 @@ Repository: https://github.com/charlinelach/responsivePortfolio
 To utilize this website/application, end users may access it via [deploy link](https://charlinelach.github.io/responsivePortfolio/). From this website, there are four pages: About Me, Portfolio, Professional Materials, and Contact.
 <br>
 
-![Portfolio GIF](overallPortfolio.gif)
+![Portfolio GIF](portfolioScreenshot.jpg)
 <br>
-![Professional Material UI](ProMaterialGIF.gif)
+![Professional Material UI](pw.gif)
 <br>
 
 ## Installation Instructions
