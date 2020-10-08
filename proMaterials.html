@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Charline Lach</title>
+    <link rel="icon"
+        href="https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/48/Hand-thumbs-up-like-2-icon.png"
+        type="image/png">
+
+</head>
+
+<!-- Body fixes with font too -->
+
+<body
+    style="background-image:url('../responsivePortfolio/Images/palmTrees.jpg'); font-family: 'Quicksand', Arial, Helvetica, sans-serif;">
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" style="font-weight:bold; font-family: 'Raleway', Arial, Helvetica, sans-serif;">Charline
+            Lach</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="proMaterials.html">Professional Materials<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col lg-12">
+                <div class="card align-left"
+                    style="margin-left:1%; margin-right:1%; margin-top: 1%; margin-bottom: 1%;">
+                    <div class="card-body">
+                        <div class="row border-bottom">
+                            <div class="col">
+                                <h1>Professional Materials</h1>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-2">
+                                    <!-- GitHub, LinkedIn, Resume -->
+                                    <div class="list-group">
+                                        <a href="https://github.com/charlinelach"
+                                            class="list-group-item list-group-item-action list-group-item-light">GitHub</a>
+                                        <a href="https://www.linkedin.com/in/charlinelach/"
+                                            class="list-group-item list-group-item-action list-group-item-primary">LinkedIn</a>
+                                        <a href="https://drive.google.com/file/d/1i7XW6Mgj1gYfQ3-3Glo0alLxwj1izXTR/view?usp=sharing"
+                                            class="list-group-item list-group-item-action list-group-item-secondary">Resume</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3>Projects</h3>
+                            <div class="row">
+                                <div class="col-4">
+                                    <!-- Good projects -->
+                                    <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active" id="list-portfolio-list"
+                                            data-toggle="list" href="#list-portfolio" role="tab"
+                                            aria-controls="portfolio">Responsive Portfolio</a>
+                                        <a class="list-group-item list-group-item-action" id="list-calendar-list"
+                                            data-toggle="list" href="#list-calendar" role="tab"
+                                            aria-controls="calendar">Work Calendar</a>
+                                        <a class="list-group-item list-group-item-action" id="list-pw-list"
+                                            data-toggle="list" href="#list-pw" role="tab"
+                                            aria-controls="pw">Random Password</a>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-portfolio" role="tabpanel"
+                                            aria-labelledby="list-portfolio-list"><img src="./Images/portfolioScreenshot.jpg" alt="Contact UI Screenshot" width="100%"
+                                            style="height:auto; float:left; margin: 1%;"></div>
+                                        <div class="tab-pane fade" id="list-calendar" role="tabpanel"
+                                            aria-labelledby="list-calendar-list">...</div>
+                                        <div class="tab-pane fade" id="list-pw" role="tabpanel"
+                                            aria-labelledby="list-pw-list">...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="navbar fixed-bottom text-center" style="background-color: white;">
+                <span style="text-align:center;margin-left:auto;margin-right:auto;" class="text-muted">© 2020 Copyright:
+                    Charline</span>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>
