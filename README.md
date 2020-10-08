@@ -19,7 +19,7 @@ To utilize this website/application, end users may access it via [deploy link](h
 
 ![Portfolio GIF](./Images/overallPortfolio.gif)
 <br>
-Mobile view
+Mobile view<br>
 ![Professional Material UI](./Images/proMaterial.gif)
 <br>
 
