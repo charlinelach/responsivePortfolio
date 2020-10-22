@@ -3,7 +3,7 @@ The initial purpose of this project is to test/provide practice for the develope
 <br>
 The second motion of this application was to improve its input and provide professional materials (as if applying to developer roles) to recruiters. It provides links to great resources about the creator.
 
-**Latest Update**: `2020 October 08`
+**Latest Update**: `2020 October 22`
 <br>
 Deployed at: https://charlinelach.github.io/responsivePortfolio/
 <br>
